@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -20,72 +19,58 @@
             </div>
         </div>
     </nav>
+    <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+    </form>
     <div class="panel panel-default">
         <div class="panel-body">
-            <ul class="nav nav-pills">
-                <li class="active">
+            <ul class="nav nav-tabs">
+                <li role="presentation" class="active">
                     <a href="#foto" data-toggle="tab">Fotos</a>
                 </li>
-                <li>
+                <li role="presentation">
                     <a href="#album" data-toggle="tab">Albums</a>
                 </li>
             </ul>
+            <br />
             <div class="tab-content clearfix">
                 <div class="tab-pane active" id="foto">
-                    <div class="">
-                        <div class="row">
-                            <div class="col-lg-2 col-md-4 col-xs-6">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="" />
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-xs-6">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="" />
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-xs-6 thumb">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-xs-6 thumb">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-xs-6 thumb">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="">
-                                </a>
-                            </div>
-                            <div class="col-lg-2 col-md-4 col-xs-6 thumb">
-                                <a class="thumbnail" href="#">
-                                    <img class="img-responsive" src="http://placehold.it/300x200" alt="">
-                                </a>
-                            </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-xs-12 thumb">
+                            <a class="thumbnail" href="#">
+                                <img src="./img/carros/1.jpg" alt="" />
+                            </a>
                         </div>
-                        <hr>
+                        <div class="col-lg-2 col-md-4 col-xs-12 thumb">
+                            <a class="thumbnail" href="#">
+                                <img src="./img/carros/2.jpg" alt="" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="tab-pane" id="album">
-                    <h3>Albums</h3>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-xs-12 thumb">
+                            <a class="thumbnail" href="#">
+                                <img src="http://netzachtapetes.com.br/img/300X200.gif" alt="" />
+                                <div class="caption">
+                                    Nenhum item
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p>Album de Fotos</p>
-            </div>
-        </div>
-    </footer>
     <!-- Bootstrap core JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </body>
 
 </html>

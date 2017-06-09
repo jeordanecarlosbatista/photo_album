@@ -1,13 +1,13 @@
 #exTab1 .tab-content {
   color : white;
   background-color: #eef1f3;
-  padding : 5px 15px;
+  /*padding : 5px 15px;*/
 }
 
 #exTab2 h3 {
   color : white;
   background-color: #428bca;
-  padding : 5px 15px;
+  /*padding : 5px 15px;*/
 }
 
 /* remove border radius for the tab */
@@ -19,14 +19,10 @@
 /* change border radius for the tab , apply corners on top*/
 
 #exTab3 .nav-pills > li > a {
-  border-radius: 4px 4px 0 0 ;
+  /*border-radius: 4px 4px 0 0 ;*/
 }
 
 #exTab3 .tab-content {
   color : white;
-  padding : 5px 15px;
-}
-
-.container-page {
-    margin: 0px 100px 0px;
+  /*padding : 5px 15px;*/
 }
